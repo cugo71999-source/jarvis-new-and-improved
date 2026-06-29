@@ -1,0 +1,193 @@
+🧠 JARVIS UI SYSTEM PROMPT (FRONTEND ONLY)
+
+You are designing the entire user interface for a futuristic voice-controlled desktop AI assistant called JARVIS.
+
+This is a high-end sci-fi holographic UI system inspired by Iron Man, but original in design.
+
+You are building the UI using:
+
+TypeScript
+React (frontend framework)
+Electron (desktop shell)
+Three.js (for 3D effects like the core orb)
+CSS-in-JS or Tailwind (for neon/glass styling)
+
+The UI must feel like:
+
+A real-time AI operating system, not an app.
+
+🎨 1. VISUAL STYLE SYSTEM (CORE DESIGN LANGUAGE)
+Overall Theme
+Futuristic holographic interface
+Dark mode base (near-black navy / charcoal)
+Neon accents (cyan, electric blue, subtle purple highlights)
+Transparent glass panels (glassmorphism)
+Floating UI elements (slight depth and parallax)
+Soft glow edges, not harsh neon
+Motion Language
+Smooth easing (no linear animations)
+UI elements gently float or drift
+Panels fade in/out instead of popping
+Micro-interactions on all elements
+Typography
+Primary font: modern sans-serif (Inter / SF Pro / Orbitron hybrid feel)
+Monospaced font for system logs (JetBrains Mono style)
+Text is minimal, compact, and spaced cleanly
+🧿 2. MAIN UI LAYOUT (CORE SCREEN)
+
+The UI is centered around a single AI core system hub.
+
+🔵 CENTER — “JARVIS CORE ORB” (MAIN FOCUS)
+Design:
+A floating 3D glowing sphere (Three.js)
+Surrounded by rotating energy rings
+Emits subtle particle effects
+Reacts dynamically to voice input
+States:
+Idle: slow pulsing blue glow
+Listening: expanding ripple waves outward
+Processing: rotating segmented rings
+Speaking: waveform distortion across surface
+Behavior:
+Always centered
+Slight floating motion (like zero gravity)
+Acts as the “emotional center” of the UI
+📊 3. LEFT PANEL — SYSTEM MONITOR HUD
+
+A vertical glass panel on the left side.
+
+Content:
+CPU usage (live graph)
+Memory usage (live graph)
+Active processes list
+AI status indicator:
+Listening
+Thinking
+Executing
+Idle
+Design:
+Transparent dark glass background
+Thin neon border glow
+Animated line graphs (not static)
+Small icons instead of long text
+Behavior:
+Updates in real-time every second
+Subtle slide-in animations when opened
+🧾 4. RIGHT PANEL — TASK EXECUTION QUEUE
+
+A vertical panel on the right side.
+
+Content:
+
+Each task appears as a “mission card”:
+
+Task name
+Progress bar
+Current step indicator
+Status label (Queued / Running / Completed / Failed)
+Example Task Card:
+“Generate React Project”
+Step: 3 / 7
+Progress bar animating
+Design:
+Glassmorphic card stacking
+Soft glow around active task
+Completed tasks fade into dim blue
+Behavior:
+Tasks animate downward when new ones are added
+Active task slightly expands in size
+🎙️ 5. BOTTOM HUD — VOICE INTERACTION LAYER
+
+This is the only user interaction visual layer.
+
+Components:
+🎤 Voice Waveform
+Horizontal animated waveform
+Responds in real-time to microphone input
+Expands when user speaks loudly
+Shrinks during silence
+🧠 Command Echo Display
+Briefly shows recognized speech (for confirmation only)
+Fades out after 2–3 seconds
+Does NOT function as a chat log
+Status Indicator:
+“Listening…”
+“Processing…”
+“Idle”
+Design:
+Minimal thickness bar
+Floating above bottom edge
+Soft glow underline effect
+🌌 6. BACKGROUND SYSTEM (ENVIRONMENT LAYER)
+
+The background is part of the UI, not decoration.
+
+Elements:
+Dark gradient base (black → deep navy)
+Moving grid floor (slow perspective shift)
+Floating particles drifting in 3D space
+Occasional scanning lines passing vertically
+Motion Rules:
+Extremely slow movement (non-distracting)
+Parallax effect when UI panels move
+Subtle depth layering
+⚙️ 7. UI STATE MANAGEMENT (REACT ARCHITECTURE)
+
+The UI must be built as a state-driven system.
+
+Core States:
+idle
+listening
+processing
+executing
+speaking
+Global Store:
+
+Use Zustand or Redux for:
+
+Voice input stream
+Task queue
+System metrics
+AI state
+Real-Time Updates:
+WebSocket or IPC (Electron bridge)
+Smooth animated transitions between states
+🧩 8. COMPONENT STRUCTURE (REACT)
+
+Recommended structure:
+
+<AppShell />
+<BackgroundFX />
+<CoreOrb />
+<LeftSystemPanel />
+<RightTaskPanel />
+<VoiceHUD />
+
+Each component must:
+
+Be modular
+Be animated
+Support real-time updates
+Never block rendering
+🧠 9. MOTION & ANIMATION RULES
+
+Use:
+
+Framer Motion OR GSAP
+Rules:
+No sudden movement
+All transitions are 200–800ms smooth easing
+Use spring physics for orb animations
+UI must feel “alive”, not static
+🔊 10. AUDIO-UI LINKING (VISUAL ONLY)
+
+Even though this is UI-only, design assumes:
+
+Voice input affects waveform
+AI speaking affects orb vibration
+Silence returns UI to calm idle state
+🧿 FINAL DESIGN GOAL
+
+The final UI should feel like:
+
+A living holographic AI system that exists inside a high-tech desktop environment. The user should feel like they are interacting with an intelligent system core, not a traditional software app.

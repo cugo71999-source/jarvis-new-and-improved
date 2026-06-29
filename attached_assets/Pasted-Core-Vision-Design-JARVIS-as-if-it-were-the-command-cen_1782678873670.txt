@@ -1,0 +1,177 @@
+Core Vision
+
+Design JARVIS as if it were the command center of the world's most advanced artificial intelligence—not a chatbot, not a dashboard, and not a traditional desktop application. The interface should resemble the control room of a living digital intelligence. Every element should feel connected to the AI itself, constantly reacting, processing, and evolving in real time.
+
+The design language should blend futuristic holographic technology, advanced military command systems, premium operating systems, and cinematic AI interfaces into one cohesive experience. The user should immediately feel that they are connected to an immensely powerful intelligence rather than interacting with a simple piece of software.
+
+Everything should feel alive.
+
+Nothing should ever appear static.
+
+Overall Layout
+
+The interface should resemble a futuristic AI command board centered around the AI Core.
+
+The user's attention should always be naturally drawn toward the center of the screen.
+
+Instead of placing conversations at the center like a typical chatbot, the AI Core Orb becomes the centerpiece of the entire application.
+
+Around this central orb, information panels, task cards, active agents, system status, conversations, and controls orbit in a clean, organized layout.
+
+Imagine standing inside the control room of an advanced AI where every panel exists to support the intelligence at the center.
+
+Every component should appear connected by faint glowing circuit lines and animated data pathways, making it feel like every piece of information flows directly into the AI Core.
+
+The AI Core Orb (The Heart of JARVIS)
+
+The AI Core Orb is the soul of the entire interface.
+
+It is not a logo.
+
+It is not an icon.
+
+It is a living digital entity.
+
+The orb should immediately capture the user's attention. It should be approximately 250–350 pixels in diameter and float perfectly in the center of the workspace. It never touches the UI panels around it, maintaining a sense of importance and presence.
+
+At first glance, the orb appears as a brilliant sphere of cyan-blue energy suspended in midair. Looking closer, it becomes clear that it is composed of countless moving layers rather than a single object.
+
+At its center lies an intensely bright energy core that emits a soft glow, like a miniature artificial star. This core should pulse slowly and rhythmically, almost like a heartbeat, subtly expanding and contracting every few seconds. The pulse represents the AI's constant awareness and presence.
+
+Surrounding this core are multiple semi-transparent concentric rings made of glowing holographic light. Each ring rotates independently at different speeds and on different axes. Some rotate clockwise while others rotate counterclockwise, creating the illusion of a highly complex machine constantly calculating.
+
+Floating between these rings are hundreds of tiny luminous particles. They orbit smoothly, occasionally accelerating or changing paths as if they are packets of information being processed. Some particles briefly connect with one another using thin energy beams before separating again, giving the impression of neural connections forming and dissolving in real time.
+
+Embedded within the orb are delicate geometric structures: hexagonal grids, wireframe spheres, floating polygons, and rotating circuit patterns. These shapes continuously morph, dissolve, and reform, suggesting that the AI is constantly reorganizing its internal thoughts.
+
+Every few seconds, faint streams of digital symbols, tiny code fragments, and glowing data lines emerge from the center of the orb, travel outward through the rotating rings, and disappear into the surrounding interface. It should look as though the AI is continuously exchanging information with the rest of the system.
+
+The orb should cast a subtle cyan glow onto nearby interface panels, reinforcing the illusion that it is a physical light source.
+
+No two moments should look exactly alike. The orb is always changing, always moving, always thinking.
+
+Orb Behaviors
+
+The AI Core should visually communicate JARVIS's current state without relying on text.
+
+Idle
+
+When idle, the orb is calm and elegant.
+
+The central core glows softly with a slow, rhythmic pulse.
+
+Outer rings rotate slowly and gracefully.
+
+Particles drift peacefully through the sphere.
+
+The glow gently illuminates the surrounding interface.
+
+Occasionally, faint scanning waves ripple outward before fading into the background.
+
+The AI appears quietly aware, patiently waiting for the next command.
+
+Listening
+
+The instant the user begins speaking, the orb becomes attentive.
+
+The central pulse accelerates slightly.
+
+Soft concentric ripples radiate outward from the core like sound waves traveling through water.
+
+Tiny particles begin moving toward the center as if the AI is gathering information.
+
+The outer rings subtly align with one another.
+
+A faint audio waveform appears wrapped around the orb itself, flowing perfectly with the user's voice.
+
+The orb should feel focused rather than animated.
+
+Thinking
+
+When reasoning through a problem, the transformation should be dramatic.
+
+The central energy becomes brighter.
+
+The rotating rings increase speed independently.
+
+New inner rings appear temporarily, spinning at different angles.
+
+Thousands of tiny particles begin rapidly changing trajectories.
+
+Glowing lines connect different regions inside the sphere, creating the appearance of neural pathways activating.
+
+Mathematical symbols, programming syntax, geometric patterns, and abstract data fragments briefly materialize within the orb before dissolving.
+
+Small arcs of blue electrical energy occasionally jump between rotating rings.
+
+The orb feels alive with computation.
+
+It should give the impression that millions of calculations are happening simultaneously.
+
+Executing Tasks
+
+When actively performing work, streams of glowing energy begin flowing from the orb into connected interface panels.
+
+Each active task appears as a beam of light extending outward.
+
+Task progress should physically affect the orb.
+
+Heavy workloads cause brighter pulses.
+
+Completed tasks collapse into small particles that return to the core.
+
+The orb should appear as though it is directing an entire digital ecosystem.
+
+Speaking
+
+While JARVIS is responding, the orb should breathe naturally with the rhythm of speech.
+
+The central light expands and contracts with each sentence.
+
+Outer rings synchronize their rotation.
+
+Particles gently vibrate.
+
+The glow brightens slightly.
+
+Instead of lip movement, the entire sphere becomes expressive through light and motion.
+
+Multi-Agent Mode
+
+When JARVIS activates additional AI agents, the orb undergoes its most impressive transformation.
+
+Small satellite cores detach from the primary orb.
+
+Each satellite inherits the appearance of the central core but adopts the color of its assigned agent.
+
+The satellites orbit around JARVIS in smooth elliptical paths connected by glowing energy bridges.
+
+Each satellite continuously exchanges particles and beams of light with the main core, making it obvious that they are collaborating rather than operating independently.
+
+The satellites should never remain perfectly still. Their orbital paths subtly adjust depending on workload, creating the feeling of a living AI network.
+
+Once an agent completes its task, its satellite dissolves into thousands of glowing particles that spiral back into the central orb, where the energy is absorbed and the orb returns to its original form.
+
+This transformation should be one of the defining visual moments of the interface.
+
+The Command Board
+
+Surrounding the AI Core is a futuristic command board rather than a conventional application layout.
+
+Large translucent panels float around the orb at varying distances, each dedicated to a different aspect of the system. Instead of looking like rigid windows, they appear as holographic control modules connected to the orb by faint animated data lines.
+
+Panels slide into place with smooth, weightless motion and gently hover in position. Information updates continuously with animated transitions rather than abrupt changes.
+
+The board should include modules for active conversations, running tasks, project files, agent status, memory references, system diagnostics, automation workflows, notifications, and recent activity. Every module should feel like part of one unified ecosystem rather than separate windows.
+
+Background Environment
+
+The background should be dark, immersive, and constantly evolving.
+
+A subtle three-dimensional starfield of glowing particles drifts behind the interface. Faint holographic grids slowly fade in and out beneath the command board, while translucent neural network connections pulse softly across the screen. Occasional scanning waves travel through the environment, briefly illuminating hidden geometric patterns before fading away.
+
+The movement should remain slow and elegant, creating the impression that the AI exists inside a vast digital universe rather than on a flat monitor.
+
+Overall Experience
+
+The finished interface should feel less like software and more like standing in front of a living artificial intelligence. The AI Core Orb is the unmistakable centerpiece, continuously communicating thought, emotion, and activity through light, motion, and energy. Every surrounding panel, animation, and effect should reinforce the illusion that all information flows into and out of this intelligent core, making the user feel as though they are commanding an advanced AI operating system from the future rather than using a conventional desktop application.

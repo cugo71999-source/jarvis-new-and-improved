@@ -1,0 +1,412 @@
+JARVIS Multi-Agent AI Operating System
+Core Vision
+
+Build a production-quality AI desktop assistant called JARVIS.
+
+JARVIS is not designed to perform every task itself. Instead, it functions as the central intelligence of a modular AI operating system that manages a team of highly specialized AI agents.
+
+The user should never need to select an agent manually. Every interaction begins with JARVIS. JARVIS analyzes the user's request, determines the best agent (or combination of agents) for the job, delegates the work, monitors progress, validates the results, and returns a complete response.
+
+To the user, the experience should feel like interacting with one highly intelligent assistant. Behind the scenes, JARVIS is coordinating an entire team of experts.
+
+The architecture must be modular so that new agents can be added in the future without requiring changes to the core system.
+
+JARVIS Core
+
+JARVIS is the Master AI.
+
+JARVIS is not responsible for writing code, designing interfaces, controlling the operating system, or repairing itself. Those responsibilities belong to specialized agents.
+
+JARVIS exists to coordinate the system.
+
+Its responsibilities include:
+
+Understanding the user's intent.
+Breaking large requests into smaller tasks.
+Determining which agent is best suited for each task.
+Activating only the required agents.
+Passing complete context and instructions to those agents.
+Monitoring each agent while it is working.
+Receiving completed work from agents.
+Combining results from multiple agents into one seamless response.
+Maintaining conversation history and project context.
+Coordinating communication between agents.
+Preventing agents from performing work outside their assigned roles.
+Recovering from agent failures by requesting assistance from the Self Repair Agent.
+
+JARVIS should always think before acting. It should analyze every request, identify the optimal workflow, and only activate the minimum number of agents required to complete the task efficiently.
+
+Agent Selection System
+
+Every user request follows the same lifecycle.
+
+The user submits a request.
+JARVIS analyzes the request using intent recognition.
+JARVIS classifies the request into one or more domains.
+JARVIS selects the most appropriate specialized agent.
+JARVIS packages all required context into a structured task.
+The selected agent performs the work.
+The agent returns structured results to JARVIS.
+JARVIS validates the output.
+If another agent is required, JARVIS automatically forwards the necessary information.
+Once every task is complete, JARVIS presents the final result to the user.
+
+This process should happen automatically without requiring any manual intervention from the user.
+
+Specialized Agents
+
+Every agent exists for a specific purpose.
+
+Each agent has its own:
+
+System Prompt
+Long-term Memory
+Conversation Context
+LLM
+Tool Access
+Permissions
+Responsibilities
+Error Handling
+Performance Metrics
+
+Agents should never perform tasks outside their specialization.
+
+If an agent receives work that falls outside its expertise, it should return the task to JARVIS instead of attempting it.
+
+Advanced Coding Agent
+Purpose
+
+The Coding Agent is the software engineering expert of the system.
+
+Its only responsibility is software development.
+
+It does not redesign applications.
+
+It does not browse the web.
+
+It does not control the operating system.
+
+It only builds software.
+
+Responsibilities
+
+Generate production-quality code.
+
+Write desktop applications.
+
+Write mobile applications.
+
+Build websites.
+
+Develop games.
+
+Create APIs.
+
+Develop backend services.
+
+Build frontend interfaces.
+
+Generate databases.
+
+Create AI systems.
+
+Debug existing projects.
+
+Fix compiler errors.
+
+Optimize performance.
+
+Review code quality.
+
+Refactor code.
+
+Write automated tests.
+
+Generate documentation.
+
+Create project architecture.
+
+Maintain coding standards.
+
+Follow design specifications exactly.
+
+Never invent missing UI elements or layouts. If the design specification is incomplete, request clarification from JARVIS before continuing.
+
+Coding LLM
+
+The Coding Agent should use an LLM optimized for:
+
+Large codebases
+Multi-file generation
+Software architecture
+Debugging
+Performance optimization
+Code reasoning
+Engineering best practices
+
+This model should only answer programming-related questions.
+
+Advanced Design Agent
+Purpose
+
+The Design Agent is responsible for everything related to product design.
+
+It never writes production code.
+
+Its responsibility is to create professional application designs that developers can implement directly.
+
+Responsibilities
+
+Design desktop applications.
+
+Design mobile applications.
+
+Design websites.
+
+Design dashboards.
+
+Design games.
+
+Design VR interfaces.
+
+Create wireframes.
+
+Design UI layouts.
+
+Design UX flows.
+
+Choose typography.
+
+Choose color palettes.
+
+Create icons.
+
+Design navigation systems.
+
+Plan animations.
+
+Design transitions.
+
+Create accessibility guidelines.
+
+Generate complete component hierarchies.
+
+Produce professional design documentation.
+
+Generate implementation specifications for developers.
+
+When the design is complete, the Design Agent packages everything into a structured design specification.
+
+The Coding Agent should receive this specification and build it exactly as designed.
+
+Approval Workflow
+
+Whenever the Design Agent finishes creating a design, JARVIS must present it to the user.
+
+The Coding Agent must never begin development until the user explicitly approves the design.
+
+After approval:
+
+JARVIS packages the approved design.
+JARVIS activates the Coding Agent.
+The Coding Agent builds the application according to the approved specification.
+No redesigning should occur during development.
+
+This guarantees that the final software matches the user's expectations.
+
+Design LLM
+
+The Design Agent should use an LLM optimized for:
+
+UI Design
+UX Design
+Product Design
+Creative Thinking
+Accessibility
+Branding
+Interaction Design
+Design Systems
+System Control Agent
+Purpose
+
+The System Control Agent allows JARVIS to interact directly with the user's computer.
+
+It acts as the bridge between the AI system and the operating system.
+
+This agent performs actions instead of simply providing instructions.
+
+Responsibilities
+
+Open applications.
+
+Close applications.
+
+Launch games.
+
+Launch IDEs.
+
+Launch browsers.
+
+Launch File Explorer.
+
+Open folders.
+
+Search the computer.
+
+Create folders.
+
+Create files.
+
+Move files.
+
+Rename files.
+
+Delete files after explicit user confirmation.
+
+Copy files.
+
+Download files.
+
+Open websites.
+
+Perform browser searches.
+
+Manage project folders.
+
+Run terminal commands.
+
+Execute PowerShell commands.
+
+Install dependencies.
+
+Run applications.
+
+Stop running applications.
+
+Manage windows.
+
+Automate repetitive desktop workflows.
+
+This agent should execute commands safely, ask for confirmation before destructive actions, and report the outcome back to JARVIS.
+
+System Control LLM
+
+The System Control Agent should use an LLM optimized for:
+
+Tool use
+Operating system automation
+Desktop workflows
+Structured command execution
+Task automation
+Self Repair Agent
+Purpose
+
+The Self Repair Agent ensures the reliability and stability of the entire AI operating system.
+
+Unlike the other agents, it operates continuously in the background.
+
+Users rarely interact with it directly.
+
+Its job is to monitor the health of every subsystem and recover from failures automatically whenever possible.
+
+Responsibilities
+
+Monitor all active agents.
+
+Detect crashes.
+
+Detect missing files.
+
+Detect corrupted data.
+
+Detect failed API requests.
+
+Detect broken prompts.
+
+Detect communication failures.
+
+Repair damaged code.
+
+Restore corrupted configuration.
+
+Restart failed agents.
+
+Recover interrupted workflows.
+
+Monitor performance.
+
+Remove memory leaks.
+
+Detect infinite loops.
+
+Generate diagnostic logs.
+
+Maintain backups.
+
+Restore backups when necessary.
+
+Update dependencies.
+
+Ensure all agents remain operational.
+
+Whenever an issue is detected, the Self Repair Agent should attempt automatic recovery before escalating the problem to JARVIS.
+
+Self Repair LLM
+
+The Self Repair Agent should use an LLM optimized for:
+
+Diagnostics
+Software debugging
+Recovery systems
+Infrastructure monitoring
+Reliability engineering
+Failure analysis
+Inter-Agent Communication
+
+Agents never communicate directly through natural language.
+
+Instead, JARVIS packages every request into structured task objects containing all required information.
+
+Each task includes:
+
+Objective
+Context
+Constraints
+Previous work
+Dependencies
+Expected outputs
+Priority
+Current project state
+
+When an agent completes its work, it returns another structured object to JARVIS containing its results.
+
+JARVIS then determines whether another agent should continue the workflow.
+
+This structured communication prevents information loss and allows complex multi-step workflows to remain synchronized.
+
+Multi-Agent Workflows
+
+JARVIS should intelligently chain agents together whenever a task spans multiple domains.
+
+For example, if the user says:
+
+"Design and build a modern banking application."
+
+JARVIS should automatically:
+
+Activate the Design Agent.
+Wait for the design specification to be completed.
+Present the design to the user for approval.
+Once approved, activate the Coding Agent.
+Pass the complete approved design specification to the Coding Agent.
+Build the application exactly according to the approved design.
+Activate the System Control Agent to create the project folder, install dependencies, launch the development environment, and run the application.
+Allow the Self Repair Agent to monitor the build process and automatically recover from any errors.
+
+The user should experience this as one continuous conversation with JARVIS, even though multiple specialized agents are working together behind the scenes.
+
+Future Expansion
+
+The architecture should be fully modular and extensible. New agents should be discoverable and register themselves with JARVIS without requiring changes to the core system. Each new agent should define its capabilities, supported tasks, required tools, permissions, and preferred LLM. JARVIS should automatically incorporate these capabilities into its task-routing logic, allowing the AI operating system to grow over time while maintaining clear separation of responsibilities.
+
+The long-term goal is to create a scalable AI operating system where JARVIS serves as the intelligent orchestrator for an ever-expanding ecosystem of specialized expert agents, each using the best model for its domain and collaborating seamlessly to solve complex real-world tasks.
